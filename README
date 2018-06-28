@@ -1,3 +1,5 @@
+A monetary currency converter I made in Java Programming class. This was one of the final projects in the class.
+
 This program pulls from a Yahoo! Finance site that returns a CSV for the program to read and gets the conversion ratio to allow for conversions from one currency to another. 
 How it works: The program uses this ratio to multiply the input value (in your chosen currency) times the ratio of the input currency to the output currency to get the equivalent cash value in the output currency of your choice.
 I use strings called “CurrencyFromCode” and “CurrencyToCode” that read which currencies you have selected from the two dropdown menus (jComboBoxes as they are called in the NetBeans IDE). 
